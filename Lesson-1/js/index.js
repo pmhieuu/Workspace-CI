@@ -74,36 +74,36 @@
 //   return a + b + c;
 // };
 // const getA2 = (a, b, c) => a + b + c;
-const calculate = {
-  a: 10,
-  b: 20,
-  name: "old calculate",
-  // declaration function
-  add: function () {
-    console.log(this); // trỏ đến cái object chứa function đấy. Ở đây this trỏ đến calculate
-    return this.a + this.b;
-  },
-  //express function
-  sub: () => {
-    console.log(this); // this ở đây trỏ đến global object. Ở đây this nó trỏ đến window
-    return this.a - this.b;
-  },
-};
-const newCalculate = {
-  a: 45,
-  b: 90,
-  name: "newCalculate",
-};
-console.log(calculate.add.bind(newCalculate)()); //bind ở đây là mượn hàm add và dùng bind để truyển một cái this khác vào. Ở đây là thay this từ calculate sang newCalculate. Bind sẽ copy từ hàm cũ (add()) và tham số đầu vào là object mà muốn thay thế this
+// const calculate = {
+//   a: 10,
+//   b: 20,
+//   name: "old calculate",
+//   // declaration function
+//   add: function () {
+//     console.log(this); // trỏ đến cái object chứa function đấy. Ở đây this trỏ đến calculate
+//     return this.a + this.b;
+//   },
+//   //express function
+//   sub: () => {
+//     console.log(this); // this ở đây trỏ đến global object. Ở đây this nó trỏ đến window
+//     return this.a - this.b;
+//   },
+// };
+// const newCalculate = {
+//   a: 45,
+//   b: 90,
+//   name: "newCalculate",
+// };
+// console.log(calculate.add.bind(newCalculate)()); //bind ở đây là mượn hàm add và dùng bind để truyển một cái this khác vào. Ở đây là thay this từ calculate sang newCalculate. Bind sẽ copy từ hàm cũ (add()) và tham số đầu vào là object mà muốn thay thế this
 
-// IEFF - immediately - invoked Function Expression
-(function testFunc() {
-  console.log("hello World");
-})();
-// Anonymous function hàm không tên
-document.addEventListener("click", function () {
-  console.log("clicked");
-});
-document.addEventListener("dblclick", () => {
-  console.log("DB clicked");
-});
+// // IEFF - immediately - invoked Function Expression
+// (function testFunc() {
+//   console.log("hello World");
+// })();
+// // Anonymous function hàm không tên
+// document.addEventListener("click", function () {
+//   console.log("clicked");
+// });
+// document.addEventListener("dblclick", () => {
+//   console.log("DB clicked");
+// });
