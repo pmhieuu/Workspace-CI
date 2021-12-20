@@ -90,3 +90,46 @@
 // console.log(boxElement.outerHTML); //<div class="Box"><h1 class="hehe">Heading</h1></div>
 // // Nếu dùng outHTML để setter thì nó sẽ ghi đè lên
 // boxElement.outerHTML = "<span>Test</span>";
+
+// DOM CSS:
+// let boxElement = document.querySelector(".Box");
+// boxElement.style.width = "100px";
+// boxElement.style.height = "200px";
+// boxElement.style.backgroundColor = "aqua";
+// // Dùng Object.assign để hợp nhất 2 obj
+// Object.assign(boxElement.style, {
+//   width: "200px",
+//   height: "100px",
+//   backgroundColor: "green",
+// });
+
+// DOM EVENT:
+// 1. Attibute Events
+// 2. Assign event using element node
+// let domEvent = document.querySelector("h1");
+// domEvent.setAttribute("onclick", "console.log(Math.random())");
+// DOM EVENT EXAMPLE:
+// let inputElement = document.querySelector('input[type="text"]');
+// let inputValue;
+// inputElement.oninput = function (e) {
+//   inputValue = e.target.value;
+// };
+
+// DOM CREATE ELEMENT:
+// 1. document.createElement()
+// 2. document.body.appendChild()
+// 3. console.dir()
+// 4. innerText, id, className, style
+
+// const h1 = document.createElement("h1");
+// h1.innerText = "Hello motherfucker!";
+// console.log(h1);
+// document.body.appendChild(h1); // lấy đến body và dùng appendChild để thêm thẻ h1 vào trong thẻ body.
+// const box = document.querySelector(".Box");
+// box.appendChild(h1);
+
+// DOM EVENTS
+// 1. preventDefault
+// 2. stopPropagation
+
+// EVENT LISTENER

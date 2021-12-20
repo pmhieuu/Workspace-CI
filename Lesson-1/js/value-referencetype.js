@@ -49,14 +49,14 @@
 
 // Trường hợp object chứa object con:
 
-const student = {
-  name: "Oanh Ha",
-  profile: {
-    firstName: "Oanh",
-    lastName: "Ha",
-    introduction: "Girl",
-  },
-};
+// const student = {
+//   name: "Oanh Ha",
+//   profile: {
+//     firstName: "Oanh",
+//     lastName: "Ha",
+//     introduction: "Girl",
+//   },
+// };
 
 // Tạo ra 2 object, object thứ nhất được gán cho student. Object thứ 2 được gán cho key profile.
 // student đang lưu địa chỉ ô nhớ của object đã gán cho nó
