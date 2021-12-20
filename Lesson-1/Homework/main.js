@@ -21,6 +21,7 @@ form.onsubmit = (e) => {
       document.querySelector("span").innerText += `${i}, `;
     }
   }
+  // Bài 1:
   const app = document.createElement("div");
   app.setAttribute("id", "app");
   document.body.appendChild(app);
