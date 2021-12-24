@@ -19,6 +19,8 @@ form.onsubmit = (e) => {
         document.querySelector(".result span").innerText += `${i},`;
       }
     }
+  } else {
+    document.querySelector(".result span").innerText = "";
   }
 };
 
@@ -30,4 +32,4 @@ let change = randomColor.addEventListener("mouseover", () => {
   randomColor.style.backgroundColor = arr[a];
 });
 
-// Bài 3:
+// Bài 3:`
