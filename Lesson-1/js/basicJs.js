@@ -55,6 +55,7 @@
 // Select by CSS selector: -> trả về element
 // let getCssSelector = document.querySelector(".box h3");
 // console.log(getCssSelector);
+// let gerAllCssSelector = document.querySelectorAll(.box h3); -> lấy tất cả các thẻ cùng class.
 
 // DOM ATTRIBUTES:
 // let headingElement = document.querySelector("h1");
