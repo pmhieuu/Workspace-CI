@@ -69,6 +69,17 @@
 // // dùng thẳng để get và set attribute bằng cách:
 // headingElement.title //nhược điểm là attribute phải phù hợp với element
 
+/** classList: giống như một mảng lưu các giá trị class của một thẻ
+ * 1. add: thêm class vào một thẻ
+ * .classList.add("class1", "class2", "classN");
+ * 2. contains: kiểm tra xem một class có tồn tại bên trong một thẻ ko
+ * .classList.contains("class1"); -> giá trị trả về là true or false.
+ * 3. remove:
+ * .classList.remove("class1");
+ * 4. toggle: kiểm tra xem một class có tồn tại trong thẻ hay ko nếu có thì xoá, không có thì thêm
+ * .classList.toggle("class1")
+ */
+
 // TEXT
 // INNERTEXT VÀ TEXTCONTENT: dùng để sửa text trong thẻ
 //let headingElement = document.querySelector("h1");

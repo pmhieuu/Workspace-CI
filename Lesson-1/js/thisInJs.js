@@ -1,5 +1,6 @@
 // THIS:
-// từ khó this tham chiếu tới đối tượng truy cập phương thức(đối tượng trước dấu .)
+// TỪ KHOÁ THIS TRONG HÀM VOID TRỎ VỀ OBJECT ĐỨNG TRƯỚC DẤU CHẤM
+// TỪ KHOÁ THIS TRONG HÀM ARROW FUNCTION TRỎ VỀ GLOBAL OBJECT
 // Đứng ngoài phương thức this tham chiếu tới đối tượng global
 // this trong hàm tạo là đại diện cho đối tượng sẽ được tạo
 // this trong một hàm là undefined khi ở strict mode

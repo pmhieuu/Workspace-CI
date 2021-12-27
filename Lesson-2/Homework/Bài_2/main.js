@@ -32,4 +32,4 @@ let change = randomColor.addEventListener("mouseover", () => {
   randomColor.style.backgroundColor = arr[a];
 });
 
-// Bài 3:`
+// Bài 3:

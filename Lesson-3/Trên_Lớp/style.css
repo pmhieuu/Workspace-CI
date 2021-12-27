@@ -1,0 +1,16 @@
+* {
+  font-family: "Montserrat", sans-serif !important;
+}
+body {
+  background-color: #cacaca;
+}
+
+.btnStart {
+  display: inline-block;
+  margin: 0px 10px;
+  border: 1px solid #0d6efd;
+  trasition: 0.15s;
+}
+.btnStart:hover {
+  color: #0d6efd !important;
+}

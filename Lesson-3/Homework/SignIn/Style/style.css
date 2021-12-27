@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  src: url("../Materials/Georgia/SVN-Georgia Bold.otf");
+  font-family: Georgia;
+}
+@font-face {
+  src: url("../Materials/Helvetica_Neue/helveticaneue.ttf");
+  font-family: Helvetica_Neue_regular;
+}
+@font-face {
+  src: url("../Materials/Helvetica_Neue/HelveticaNeue-Medium.otf");
+  font-family: Helvetica_Neue_medium;
+}
+@font-face {
+  src: url("../Materials/Helvetica_Neue/helveticaneuelight.ttf");
+  font-family: Helvetica_Neue_light;
+}
+@font-face {
+  src: url("../Materials/Helvetica_Neue/helveticaneueitalic.ttf");
+  font-family: Helvetica_Neue_italic;
+}
+#signIn {
+  display: flex;
+}
+
+#image {
+  width: 988px;
+  height: 960px;
+  background-image: URL("../Materials/image4 1.png");
+}
+
+#container {
+  text-align: center;
+  width: 692px;
+}
+
+#container img {
+  width: 129px;
+  height: 144px;
+  margin-top: 36px;
+}
+
+#container .title {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 35px;
+  margin-top: -5px;
+  margin-bottom: 30px;
+  color: #004058;
+}
+
+#container .description {
+  font-family: Helvetica_Neue_regular;
+  font-size: 16px;
+  width: 400px;
+  margin: 0 auto;
+  color: #333333;
+  line-height: 24px;
+}
+
+#form {
+  width: 500px;
+  height: 496px;
+  margin: 45px auto;
+}
+
+#form .label {
+  font-family: Helvetica_Neue_medium;
+  font-size: 16px;
+  margin-bottom: 20px;
+  text-align: left;
+  color: #333333;
+}
+
+#form .input {
+  width: 500px;
+  height: 50px;
+  margin-bottom: 40px;
+  border: 0.5px solid #333333;
+  box-sizing: border-box;
+  border-radius: 50px;
+  padding-left: 40px;
+}
+
+#form .input:focus {
+  outline: none;
+  border: 1px solid #004058;
+}
+
+.input::-webkit-input-placeholder {
+  font-family: Helvetica_Neue_light;
+  color: #767676;
+  font-size: 16px;
+}
+
+.checkBoxLabel {
+  display: flex;
+  align-items: center;
+}
+.checkBoxInput {
+  margin-right: 14px;
+  color: #333333;
+}
+
+.checkBoxInput:checked {
+  background-color: #004058;
+  border: #004058;
+}
+
+.checkBox {
+  font-family: Helvetica_Neue_italic;
+  font-size: 16px;
+  color: #333333;
+}
+.inputHelp {
+  display: inline-flex;
+  align-items: center;
+  width: 500px;
+}
+.inputHelp a {
+  font-family: Helvetica_Neue_italic;
+  font-size: 16px;
+  color: #333333;
+  margin-left: 175px;
+}
+.inputHelp a:hover {
+  color: #004058;
+}
+
+.signInBtn {
+  width: 200px;
+  height: 45px;
+  border: 1px solid #004058;
+  color: #004058;
+  background-color: #fff;
+  border-radius: 50px;
+  margin: 45px auto;
+  font-family: Helvetica_Neue_regular;
+  font-size: 16px;
+}
+.signInBtn:hover {
+  color: #fff;
+  background-color: #004058;
+}
+.signInGg {
+  width: 300px;
+  height: 45px;
+  border: 1px solid #004058;
+  color: #004058;
+  background-color: #fff;
+  border-radius: 50px;
+  font-family: Helvetica_Neue_regular;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+.signInGg:hover {
+  color: #fff;
+  background-color: #004058;
+}
+
+.signUp {
+  font-family: Helvetica_Neue_regular;
+  font-size: 16px;
+}
+.signUp a {
+  font-family: Helvetica_Neue_italic;
+  color: #004058;
+}
